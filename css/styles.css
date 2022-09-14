@@ -811,9 +811,7 @@ fill: var(--accent-color);
 		opacity: 1;
 		height: 581px;
 		width: 528px;
-		padding: 8px;
-		padding-top: 20px;
-		padding-right: 50px;
+		padding: 40px;
 		background-color: var(--primary-bg-color);
 		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 		0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -843,3 +841,118 @@ fill: var(--accent-color);
 .vector {
 	margin: 8px;
 }
+
+.titel-modal {
+	font-weight: 700;
+		font-size: 20px;
+		line-height: 23px;
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: #212121;
+		margin: 0px 0px 12px;
+}
+
+.register-form {
+		width: 448px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.modal-form {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.label-form {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.form-icon {
+	position: absolute;
+	top: 29px;
+	left: 12px;
+}
+
+.form-name {
+margin-bottom: 4px;
+margin-right: auto;
+font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: #757575;
+}
+
+.form-input {
+	width: 448px;
+	height: 40px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.form-tel {
+	margin-bottom: 4px;
+	margin-right: auto;
+	font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		letter-spacing: 0.01em;
+		color: #757575;
+}
+
+.form-mail {
+	margin-bottom: 4px;
+	margin-right: auto;
+	font-weight: 400;
+	font-size: 12px;
+    line-height: 14px;
+	letter-spacing: 0.01em;
+	color: #757575;
+}
+
+.form-coment {
+	margin-bottom: 4px;
+	margin-right: auto;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: #757575;
+	}
+
+	.textarea-comment {
+		resize: none;
+		width: 448px;
+			height: 120px;
+			border: 1px solid rgba(33, 33, 33, 0.2);
+			border-radius: 4px;
+			margin-bottom: 20px;
+			padding: 12px 16px;
+	}
+
+	.checkbox-form {
+		margin-bottom: 30px;
+	}
+
+	.box-in {
+		width: 16px;
+		height: 15px;
+	    border-color: #212121;
+	}
+
+	.form-btn {
+		display: block;
+		width: 200px;
+		height: 50px;
+		left: 700px;
+		background: #2196F3;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
+	     margin-left: auto;
+		margin-right: auto;
+	} 
